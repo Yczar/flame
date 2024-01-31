@@ -8,7 +8,7 @@ funding:
   - https://patreon.com/bluefireoss
 
 environment:
-  sdk: '>=3.3.0-279.2.beta <4.0.0'
+  sdk: ">=3.3.0-279.2.beta <4.0.0"
   flutter: ">=3.13.0"
 
 dependencies:
@@ -16,10 +16,11 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_gpu:
+    path: ../flame_3d/engine/lib/gpu
 
 dev_dependencies:
   flame_lint: ^1.1.2
-  flame_test: ^1.15.3 
+  flame_test: ^1.15.3
   flutter_test:
     sdk: flutter
   lint: ^2.1.2

@@ -24,10 +24,13 @@ dependencies:
     sdk: flutter
   google_fonts: ^4.0.4
   meta: ^1.9.1
-  padracing: ^1.0.0
+  padracing:
+    path: ../examples/games/padracing
   provider: ^6.0.5
-  rogue_shooter: ^0.1.0
-  trex_game: ^0.1.0
+  rogue_shooter:
+    path: ../examples/games/rogue_shooter
+  trex_game:
+    path: ../examples/games/trex
 
 dev_dependencies:
   flame_lint: ^1.1.2
